@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Hicco</title>
+
+    <!-- boot strap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <!-- boot strap-->
+
+    <!-- google font-->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+    </style>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+    </style>
+    <!-- google font-->
+
+    <!-- font awesome-->
+    <script
+      src="https://kit.fontawesome.com/f2f0208308.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- font awesome-->
+
+    <!-- css sheet  -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- css sheet  -->
+  </head>
+
+  <body>
+    <section id="title">
+      <!-- Nav Bar -->
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand ms-4" id="brand-name" href=""> Hicco</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" id="more-Info" href=""> contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="more-Info" href=""> pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="more-Info" href=""> download</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+
+        <div class="container" id="header-container">
+          <div class="row">
+            <div class="col-lg-6 mt-5">
+              <h1>Get the Best Deals on Mobile Devices with Hico</h1>
+              <button type="button " class="btn btn-dark btn-lg mt-4">
+                <i class="fa-brands fa-apple"></i> Download
+              </button>
+              <button
+                type="button "
+                class="btn btn-outline-light btn-lg mt-4 ms-4"
+              >
+                <i class="fa-brands fa-android"></i> Download
+              </button>
+            </div>
+            <div class="col-lg-6">
+              <img
+                id="iphone"
+                src="images/iphone_12(2).png"
+                alt="iphone-mockup"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+
+    <section id="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 features-col">
+            <i class="fa-solid fa-truck-fast fa-4x icon mb-4"></i>
+            <h3>Fast delivery</h3>
+            <p>Bring your products to you fast as possiable</p>
+          </div>
+
+          <div class="col-lg-4 features-col">
+            <i class="fa-solid fa-shield-halved fa-4x icon mb-4"></i>
+            <h3>Warrenty</h3>
+            <p>full one year warrenty</p>
+          </div>
+          <div class="col-lg-4 features-col">
+            <i class="fa-solid fa-handshake fa-4x icon mb-4"></i>
+            <h3>100% Trusted</h3>
+            <p>All of our products are genuine</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+      <div
+        id="testimonials-carousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <h2>
+              I am really satisfied with my new mobile phone! The camera takes
+              great photos and the battery life is impressive.
+            </h2>
+            <img
+              class="testimonials-image"
+              src="images/lady-img.jpg"
+              alt="dog-profile"
+            />
+            <em>Pebbles, New York</em>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <h2>
+              I am really satisfied with my new mobile phone! The camera takes
+              great photos and the battery life is impressive.
+            </h2>
+            <img
+              class="testimonials-image"
+              src="images/lady-img.jpg"
+              alt="dog-profile"
+            />
+            <em>Pebbles, New York</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              I am really satisfied with my new mobile phone! The camera takes
+              great photos and the battery life is impressive.
+            </h2>
+            <img
+              class="testimonials-image"
+              src="images/lady-img.jpg"
+              alt="lady-profile"
+            />
+            <em>Beverly, Illinois</em>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testimonials-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#testimonials-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Press -->
+
+    <section id="press">
+      <img class="press-images" src="images/techcrunch.png" alt="tc-logo" />
+      <img class="press-images" src="images/tnw.png" alt="tnw-logo" />
+      <img
+        class="press-images"
+        src="images/bizinsider.png"
+        alt="biz-insider-logo"
+      />
+      <img class="press-images" src="images/mashable.png" alt="mashable-logo" />
+    </section>
+
+    <!-- Pricing -->
+
+    <section id="pricing">
+      <div class="container">
+        <div class="price-title">
+      <h2>A Plan for Every Phone</h2>
+      <p>Simple and affordable price plans for your</p>
+    </div>
+      <div class="row">
+        <div class="col-lg-6  mb-4">
+
+      <div class="card price-cards">
+        <div class="card-header ">
+          <h3>Android</h3>
+        </div>
+        <div class="card-body">
+          
+      <h2>800$</h2>
+      <p>Box pack</p>
+      <p>Charger and handsfree included</p>
+      <p>1 year warrenty</p>
+      <button type="button" class="btn btn-dark btn-lg btn-block"><i class="fa-brands fa-android"></i> BUY ANDROID</button>
+        </div>
+      </div>
+        </div>
+
+        <div class="col-lg-6 mb-4" >
+
+      <div class="card price-cards">
+        <div class="card-header ">
+          <h3>Iphone</h3>
+        </div>
+        <div class="card-body">
+          <h2>1200$</h2>
+          <p>Box pack</p>
+          <p>Charger and handsfree included</p>
+          <p>1 year warrenty</p>
+          <button type="button" class="btn btn-dark btn-lg btn-block" ><i class="fa-brands fa-apple"></i> BUY IPHONE </button>
+    
+        </div>
+      </div>
+        </div>
+    
+      </div>
+   
+
+      
+
+     
+    
+      
+    </section>
+
+    <!-- Call to Action -->
+
+    <section id="cta">
+      <div class="container cta-container">
+      <h3 class="cta-title mb-5">Find the phone that meet's your need </h3>
+      <button type="button" class="btn btn-dark btn-lg btn-block"><i class="fa-brands fa-android"></i> BUY ANDROID</button>
+      <button type="button" class="btn btn-dark btn-lg btn-block ms-5" ><i class="fa-brands fa-apple"></i> BUY IPHONE </button>
+    </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+     
+      <p class="fotter-icon "><i class="fa-brands fa-instagram fa-bounce"></i> <i class="fa-brands fa-twitter fa-bounce"></i>  <i class="fa-brands fa-facebook fa-bounce"></i></p>
+      <p class="fotter-text">© Copyright Hicco</p>
+    </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js"
+      integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
